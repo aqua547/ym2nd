@@ -1,0 +1,105 @@
+.container{
+  width:100%;
+  margin:auto;
+
+}
+
+
+
+.header{
+  height:70px;
+  background-color: #008080;
+  color:#fafad2;
+  padding-left: 50px;
+}
+h1{
+  float:left;
+  margin:0 auto;
+  display:inline-block;
+  line-height: 70px;
+  margin-right:8px;
+}
+
+
+.top{
+  background-image: url(img/back-img.jpg);
+  background-size: cover;
+  background-color:rgba(255,255,255,0.3);
+  background-blend-mode:lighten;
+  padding:0 30px;
+  height:100%;
+
+}
+
+.profile-img{
+  float:left;
+  width:400px;
+  height:500px;
+  margin-right: 70px;
+  margin-top:30px;
+}
+
+.profile ul{
+ margin-top:150px;
+display:block;
+
+}
+.profile li{
+  margin-right:10px;
+  padding:10px;
+  font-size:25px;
+  font-weight:bold;
+  color:white;
+}
+
+ h2{
+  border-bottom:2px solid #e6e6fa;
+  margin:20px 0 10px 0;
+  text-align: left;
+  color:white;
+  font-size:25px;
+  letter-spacing: 2px;
+}
+.btn-wrapper{
+  text-align: center;
+  margin-top:150px;
+  color:white;
+}
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  opacity:0.9;
+}
+ul .omoshiro{
+  font-size:30px;
+}
+
+.btn{
+  padding:8px 24px;
+  border-radius: 4px;
+
+}
+.twitter{
+  background-color:#55acee;
+}
+.instagram{
+  background-color: #8b008b;
+  margin-right: 10px;
+}
+.line{
+  width:120px;
+  height:120px;
+}
+.btn:hover{
+  opacity:0.9;
+}
+
+.footer{
+  height:70px;
+  background-color:#800000;
+  color:#fa8072;
+  margin-top:50px;
+  padding:0 30px
+}
